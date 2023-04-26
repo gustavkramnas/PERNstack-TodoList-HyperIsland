@@ -1,6 +1,6 @@
 # PERNstack-TodoList-HyperIsland
 
-PERN-stack TODO LIST
+
 📂 The Brief: Build and API aligned with the RESTful principles with persistent storage that can be called from a local web application.
 
 ⏳ Time spent / Deadline: 6 weeks - 5 min presentation assessment.
