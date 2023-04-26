@@ -17,12 +17,9 @@
 -connect backend to frontend
 -Learning filestructure 
 -Working with Postman 
--
 
 🛠 Toolbox:
-
 REACT, Bootstrap 5, Git & Github, PostgresSQL, Postman, Youtube
 
 💻 Tech used in this specific repository:
-
 Javascript, react, nodejs, postgresSQL, postman, expressJS, (PERN)
