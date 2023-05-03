@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer>PERN-stack made of Gustav</footer>
+      <footer>PERN-stack</footer>
     </div>
   );
 };

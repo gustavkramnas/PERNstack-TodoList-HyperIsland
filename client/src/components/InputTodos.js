@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const InputTodo = () => {
+const InputTodos = () => {
   const [description, setDescription] = useState("");
 
   const onSubmitForm = async (e) => {
@@ -34,4 +34,4 @@ const InputTodo = () => {
   );
 };
 
-export default InputTodo;
+export default InputTodos;

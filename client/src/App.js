@@ -1,13 +1,13 @@
 import React from "react";
-import InputTodo from "./components/InputTodo";
-import ListTodos from "./components/ListTodo";
+import InputTodos from "./components/InputTodos";
+import ListTodos from "./components/ListTodos";
 import "./App.css";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <InputTodo />
+      <InputTodos />
       <ListTodos />
       <Footer />
     </div>

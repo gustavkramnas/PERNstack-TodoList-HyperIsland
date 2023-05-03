@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import EditTodo from "./EditTodo";
+import EditTodos from "./EditTodos";
 
 const ListTodos = () => {
   const [todos, setTodos] = useState([]);
@@ -16,7 +16,7 @@ const ListTodos = () => {
       console.error(err.message);
     }
   }
-
+  // Get todos function
   async function getTodos() {
     const res = await fetch("http://localhost:4000/todos");
 
@@ -44,7 +44,7 @@ const ListTodos = () => {
             <tr key={todo.todo_id}>
               <td>{todo.description}</td>
               <td>
-                <EditTodo todo={todo} />
+                <EditTodos todo={todo} />
               </td>
               <td>
                 <button

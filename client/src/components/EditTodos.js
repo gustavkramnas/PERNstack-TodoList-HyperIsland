@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
-const EditTodo = ({ todo }) => {
+const EditTodos = ({ todo }) => {
   //editText function
-
   const editText = async (id) => {
     try {
       const body = { description };
@@ -80,4 +79,4 @@ const EditTodo = ({ todo }) => {
   );
 };
 
-export default EditTodo;
+export default EditTodos;
