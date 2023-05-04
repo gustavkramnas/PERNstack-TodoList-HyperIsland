@@ -23,3 +23,9 @@ REACT, Bootstrap 5, Git & Github, PostgresSQL, Postman, Youtube
 
 💻 Tech used in this specific repository:
 Javascript, react, nodejs, postgresSQL, postman, expressJS, (PERN)
+
+<img width="1225" alt="Skärmavbild 2023-05-04 kl  16 16 28" src="https://user-images.githubusercontent.com/113347416/236235146-560c62a7-c042-4e08-870c-6face782abc2.png">
+
+<img width="1221" alt="Skärmavbild 2023-05-04 kl  16 16 41" src="https://user-images.githubusercontent.com/113347416/236235055-4609706f-6e2f-4bea-87e8-3a99e6b03454.png">
+
+
