@@ -7,7 +7,7 @@ const InputTodos = () => {
     e.preventDefault();
     try {
       const body = { description };
-      await fetch("http://localhost:4000/todos", {
+      await fetch("https://pernstack-todolist.onrender.com/todos", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

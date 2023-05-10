@@ -5,7 +5,7 @@ const EditTodos = ({ todo }) => {
   const editText = async (id) => {
     try {
       const body = { description };
-      await fetch(`http://localhost:4000/todos/${id}`, {
+      await fetch(`https://pernstack-todolist.onrender.com/todos/${id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

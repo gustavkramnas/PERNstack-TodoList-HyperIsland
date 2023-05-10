@@ -7,7 +7,7 @@ const ListTodos = () => {
   // Delete todo function
   async function deleteTodo(id) {
     try {
-      await fetch(`http://localhost:4000/todos/${id}`, {
+      await fetch(`https://pernstack-todolist.onrender.com/todos/${id}`, {
         method: "DELETE",
       });
 
@@ -18,7 +18,7 @@ const ListTodos = () => {
   }
   // Get todos function
   async function getTodos() {
-    const res = await fetch("http://localhost:4000/todos");
+    const res = await fetch("https://pernstack-todolist.onrender.com/todos");
 
     const todoArray = await res.json();
 
